@@ -11655,7 +11655,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-gesture-handler@npm:^2.19.0":
+"react-native-gesture-handler@npm:2.16.1":
+  version: 2.16.1
+  resolution: "react-native-gesture-handler@npm:2.16.1"
+  dependencies:
+    "@egjs/hammerjs": ^2.0.17
+    hoist-non-react-statics: ^3.3.0
+    invariant: ^2.2.4
+    lodash: ^4.17.21
+    prop-types: ^15.7.2
+  peerDependencies:
+    react: "*"
+    react-native: "*"
+  checksum: 8c49773474da7d6e31669479786ade58bf583f4affe5df81701a7a82dc42e8298fc99b30ff11c9a909bdc515cbc4e9d1462f264467b5d062aa11ccbc33c9947d
+  languageName: node
+  linkType: hard
+
+"react-native-gesture-handler@npm:^2.16.1":
   version: 2.19.0
   resolution: "react-native-gesture-handler@npm:2.19.0"
   dependencies:
@@ -11670,7 +11686,27 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-reanimated@npm:^3.15.3":
+"react-native-reanimated@npm:3.10.1":
+  version: 3.10.1
+  resolution: "react-native-reanimated@npm:3.10.1"
+  dependencies:
+    "@babel/plugin-transform-arrow-functions": ^7.0.0-0
+    "@babel/plugin-transform-nullish-coalescing-operator": ^7.0.0-0
+    "@babel/plugin-transform-optional-chaining": ^7.0.0-0
+    "@babel/plugin-transform-shorthand-properties": ^7.0.0-0
+    "@babel/plugin-transform-template-literals": ^7.0.0-0
+    "@babel/preset-typescript": ^7.16.7
+    convert-source-map: ^2.0.0
+    invariant: ^2.2.4
+  peerDependencies:
+    "@babel/core": ^7.0.0-0
+    react: "*"
+    react-native: "*"
+  checksum: b41808a122799806a524601e75620c8d79ebf8a0127f57fe370412f90471560005f65df8549fd8c39e627c58141a921c849fec9d263f481f153f0ddc90e4a5b6
+  languageName: node
+  linkType: hard
+
+"react-native-reanimated@npm:^3.10.1":
   version: 3.15.3
   resolution: "react-native-reanimated@npm:3.15.3"
   dependencies:
@@ -12653,7 +12689,8 @@ __metadata:
     react-dom: 18.2.0
     react-native: 0.74.5
     react-native-builder-bob: ^0.30.2
-    react-native-reanimated: ^3.15.3
+    react-native-gesture-handler: 2.16.1
+    react-native-reanimated: 3.10.1
     react-native-web: ~0.19.10
   languageName: unknown
   linkType: soft
@@ -12674,8 +12711,8 @@ __metadata:
     react: 18.2.0
     react-native: 0.74.5
     react-native-builder-bob: ^0.30.2
-    react-native-gesture-handler: ^2.19.0
-    react-native-reanimated: ^3.15.3
+    react-native-gesture-handler: ^2.16.1
+    react-native-reanimated: ^3.10.1
     release-it: ^15.0.0
     typescript: ^5.2.2
   peerDependencies:
