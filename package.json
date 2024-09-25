@@ -45,7 +45,11 @@
     "release": "release-it",
     "build": "yarn clean && yarn prepare"
   },
-  "keywords": ["react-native", "ios", "android"],
+  "keywords": [
+    "react-native",
+    "ios",
+    "android"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/michaelessiet/shogun-bottom-sheet.git"
@@ -85,7 +89,9 @@
     "react-native-gesture-handler": ">=2.16.1",
     "react-native-reanimated": ">=3.10.1"
   },
-  "workspaces": ["example"],
+  "workspaces": [
+    "example"
+  ],
   "packageManager": "yarn@3.6.1",
   "jest": {
     "preset": "react-native",
@@ -95,7 +101,9 @@
     ]
   },
   "commitlint": {
-    "extends": ["@commitlint/config-conventional"]
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
   },
   "release-it": {
     "git": {
