@@ -5,7 +5,7 @@ A React Native bottom sheet component library built on Reanimated
 ## Installation
 
 ```sh
-npm install shogun-bottom-sheet
+yarn install shogun-bottom-sheet
 ```
 
 ## Usage
